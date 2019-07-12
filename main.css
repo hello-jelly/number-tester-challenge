@@ -38,3 +38,11 @@ input {
     height: 55px;
     margin: 20px;
 }
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}

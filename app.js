@@ -1,12 +1,20 @@
 import isEven from './is-even.js';
-import isOdd from './is-odd.js';
 
 // reference elements
 const evenClown = document.getElementById('even');
 const oddClown = document.getElementById('odd');
-const x = document.getElementById('numberInput');
+const numberInput = document.getElementById('number-input');
 
 // wire up events
-button.onClick = getResult(x) {
-    x = Number(evenClown.value);
-    const x = Number(oddClown.value)
+function getResult() {
+    const x = parseInt(numberInput.value);
+    if (isEven(x)) {
+        evenClown.classList.add('visible');
+        oddClown.classList.remove('visible');
+    } else {
+        evenClown.classList.remove('visible');
+        oddClown.classList.add('visible');
+    }  
+}
+
+window.getResult = getResult;

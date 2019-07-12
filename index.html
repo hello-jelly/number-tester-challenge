@@ -10,21 +10,25 @@
 
 <body>
     <header>
-    <h1>EVEN OR ODD?</h1>
+        <h1>EVEN OR ODD?</h1>
     </header>  
     <main>
-    <section>
-    <h2>ENTER A NUMBER, GET A RESULT</h2>
-    <input type="number" id="numberInput"></input>
-    <button onclick="getResult()"><strong>CLICK IF YOU DARE!</strong></button><br><br>
-    </section>
-    
-    <section>
-    <img id="even" class="hidden" src="images/even.jpg" alt="Even Clown" height = 350px><br><br>
-    <h3>"Why, that's even..."</h3>
-    <img id="odd" class="hidden" src="images/odd.jpg" alt="Odd Clown" height = 400px>
-    <h3><strong>"ODD!"</strong></h3>
-    </section>
+        <section>
+            <h2>ENTER A NUMBER, GET A RESULT</h2>
+            <input type="number" id="number-input"></input>
+            <button onclick="getResult()"><strong>CLICK IF YOU DARE!</strong></button><br><br>
+        </section>
+        
+        <section>
+            <div id="even" class="hidden">
+                <img src="images/even.jpg" alt="Even Clown" height = 350px><br><br>
+                <h3>"Well, that's even..."</h3>
+            </div>
+            <div id="odd" class="hidden">
+                <img src="images/odd.jpg" alt="Odd Clown" height = 400px>
+                <h3><strong>"ODD!"</strong></h3>
+            </div>
+        </section>
     </main>
 </body>
 <script src="app.js" type="module"></script>
