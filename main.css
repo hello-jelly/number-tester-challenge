@@ -5,8 +5,8 @@ body {
 h1 {
     color: purple;
     font-family: 'Gill Sans';
-    font-size: 65px;
-    margin: 50px;
+    font-size: 70px;
+    margin: 30px;
 }
 
 h2 {
@@ -16,18 +16,25 @@ h2 {
     margin: 50px;
 }
 
+h3 {
+    font-family: 'Gill Sans';
+    font-size: 40px;
+}
+
 button {
     height: 60px;
-    width: 300px;
-    background: salmon;
-    font-size: 20px;
+    width: 350px;
+    background: red;
+    color: white;
+    font-size: 24px;
     font-family: 'Gill Sans';
+    border-radius: 25px;
 }
 
 input {
     font-size: 20px;
-    font-family: 'Gill Sans'
-    width: 60px;
+    font-family: 'Gill Sans';
+    width: 200px;
     height: 55px;
-    margin: 30px;
+    margin: 20px;
 }
