@@ -8,5 +8,6 @@ const x = document.getElementById('numberInput');
 
 // wire up events
  function getResult() {
-     numberInput.textContent = isEven.value;
- }
+    const x = Number(isEven.value);
+    const x = Number(isOdd.value)
+}
