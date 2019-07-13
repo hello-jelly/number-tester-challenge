@@ -7,6 +7,13 @@ const numberInput = document.getElementById('number-input');
 
 // wire up events
 function getResult() {
+    const value = numberInput.value;
+    if (!value) {
+        evenClown.classList.remove('visible');
+        oddClown.classList.remove('visible');
+        return;
+    }
+
     const x = parseInt(numberInput.value);
     if (isEven(x)) {
         evenClown.classList.add('visible');
